@@ -1,0 +1,691 @@
+html
+{
+	background-color: #8f482a;
+	background-image: url(images/bkgd.jpg);
+	background-repeat: repeat-x;
+	background-position: center top;
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	margin: 0 0 0 30px;
+	padding: 0;
+	color: #4b2211;
+	font-size: 12px;
+	line-height: 160%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+a { color: #4b2211; }
+
+a:hover
+{
+	color: #d09a74;
+	text-decoration: none;
+}
+
+.text-center { text-align: center; }
+
+.section-center {
+	text-align: center;
+	margin: 5px 0;
+}
+
+.directions-center {
+	text-align: center;
+	margin-top: 10px;
+}
+
+/* Google Map */
+#block-block-1 .content { text-align: center; }
+
+.uppercase { text-transform: uppercase; }
+
+h1, h2, h3, h4, h5, h6
+{
+	font-weight: bold;
+	line-height: 180%;
+	text-transform: uppercase;
+	font-family: 'Trebuchet MS', Trebuchet, Verdana, sans-serif;
+}
+
+h1 { font-size: 150%; }
+h1.wide-header
+{
+	background-image: url(images/h-finial-r.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+	padding: 0 32px 0 0;
+	line-height: 43px;
+	margin-bottom: 10px;
+}
+h1.wide-header span
+{
+	background-image: url(images/h-finial.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding: 0 0 0 32px;
+	text-align: center;
+	display: block;
+}
+h2 { font-size: 140%; }
+h3 { font-size: 130%; }
+h4
+{
+	font-size: 120%;
+	background-image: url(images/h-finial.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	line-height: 43px;
+	padding: 0 0 10px 32px;
+}
+h5 { font-size: 110%; }
+h6 { font-size: 100%; }
+
+p { padding-bottom: 12px; }
+
+.border-bottom { border-bottom: 1px solid #4b2211; }
+
+#container
+{
+	position: relative;
+	width: 1155px;
+	min-height: 900px;
+	margin: 0 auto;
+	background-image: url(images/peacock.jpg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+#right-region
+{
+	float: left;
+	width: 277px;
+	margin-left: 28px;
+	margin-top: 48px;
+}
+
+/**
+ Header
+ */
+#header
+{
+	background-image: url(images/header.png);
+	background-repeat: no-repeat;
+	background-position: 0 bottom;
+	width: 950px;
+	height: 196px;
+	position: relative;
+}
+
+#header .info, #header .info-landing
+{
+	color: #8b4325;
+	position: absolute;
+	text-transform: uppercase;
+	font-family: 'Trebuchet MS', Trebuchet, Verdana, sans-serif;
+}
+
+#header .info, #header .info-landing
+{
+	left: 350px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#header .info { bottom: 50px; }
+#header .info-landing { top: 5px; }
+#header .info span, #header .info-landing span { padding-right: 10px; }
+
+#header .info a, #header .info-landing a { color: #8b4325; }
+
+#header .info a:hover, #header .info-landing a:hover
+{
+	text-decoration: none;
+	color: #ffbc61;
+}
+
+#logo-floater
+{
+	position: absolute;
+	top: 10px;
+	left: 5px;
+}
+
+#logo-floater a { text-decoration: none; }
+
+/**
+ Content area
+ */
+#content, #content-landing
+{
+	background-color: #FAE9D2;
+	background-repeat: no-repeat;
+	background-position: right top;
+	position: relative;
+}
+
+#content
+{
+	background-image: url(images/content-bkgd.png);
+	min-height: 315px;
+	width: 892px;
+	padding: 14px 29px 29px;
+}
+
+/**
+ Wine Bar/Restaurant Pages
+ */
+#restaurant #content-left, #winebar #content-left
+{
+	float: left;
+	width: 587px;
+}
+
+#winebar .image, #restaurant .image
+{
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 587px;
+	margin-bottom: 10px;
+}
+
+#winebar .image
+{
+	background-image: url(images/wine_bar_art.jpg);
+	height: 259px;
+}
+
+#restaurant .image
+{
+	background-image: url(images/restaurant_art.jpg);
+	height: 257px;
+}
+
+/**
+ Generic Landing Pages
+ */
+#content-landing
+{
+	background-image: url(images/landing-content-bkgd.png);
+	min-height: 654px;
+	width: 874px;
+	padding: 38px;
+}
+
+#content-landing #content-image
+{
+	background-image: url(images/landing-art.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	width: 874px;
+	height: 449px;
+}
+
+#content-landing #content-text
+{
+	width: 874px;
+	margin-top: -60px;
+}
+
+#content-landing #content-text .left
+{
+	float: left;
+	width: 262px;
+	margin-right: 38px;
+}
+
+#content-landing #content-text .right
+{
+	float: left;
+	width: 574px;
+	margin-top: 33px;
+}
+
+/**
+ Footer
+ */
+#footer
+{
+	background-image: url(images/footer.png);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	width: 950px;
+	height: 154px;
+	position: relative;
+	top: -5px;
+}
+
+#footer .info a { color: #ffbc61; }
+
+#footer .info a:hover
+{
+	text-decoration: none;
+	color: #4b2211;
+}
+
+#footer .info
+{
+	color: #ffbc61;
+	font-size: 14px;
+	position: absolute;
+	text-align: right;
+	top: 36px;
+	right: 20px;
+	text-transform: uppercase;
+	font-family: 'Trebuchet MS', Trebuchet, Verdana, sans-serif;
+}
+
+#footer .copyright
+{
+	font-size: 11px;
+	position: absolute;
+	text-align: right;
+	top: 94px;
+	right: 20px;
+	line-height: 140%;
+}
+
+/**
+ Menus CSS
+ */
+#primary-menu
+{
+	position: absolute;
+	left: 265px;
+	bottom: 14px;
+}
+
+.primary-links li { padding: 0 10px 0 0; }
+
+.primary-links li a, 
+#block-menu-menu-sub-menu-links ul.menu li a, 
+#block-menu-menu-footer-links ul.menu li a
+{
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: 'Trebuchet MS', Trebuchet, Verdana, sans-serif;
+}
+
+.primary-links li a
+{
+	color: #fec77c;
+	font-size: 14px;
+}
+
+.primary-links li a:hover { color: #8b4325; }
+
+#block-menu-menu-footer-links
+{
+	position: absolute;
+	left: 162px;
+	top: 7px;
+}
+
+#block-menu-menu-footer-links ul.menu, 
+#block-menu-menu-sub-menu-links ul.menu
+{
+	padding: 0;
+	margin: 0;
+}
+
+#block-menu-menu-footer-links ul.menu li
+{
+	display: inline;
+	list-style-image: none;
+	list-style-type: none;
+	padding: 0 10px 0 0;
+	margin: 0;
+}
+
+#block-menu-menu-footer-links ul.menu li a { color: #d89e67; font-size: 12px; }
+#block-menu-menu-footer-links ul.menu li a:hover { color: #fec77c; }
+
+#block-menu-menu-sub-menu-links ul.menu li
+{
+	list-style-image: none;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+#block-menu-menu-sub-menu-links ul.menu li a,
+#block-menu-menu-sub-menu-links ul.menu li a:hover
+{
+	color: #8b4325;
+	background-image: url(images/menu_off.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	line-height: 27px;
+	padding: 0 10px 0 36px;
+	display: block;
+	width: 231px;
+	margin-bottom: 2px;
+}
+
+#block-menu-menu-sub-menu-links ul.menu li a:hover { background-image: url(images/menu_on.png); }
+
+/**
+ Admin CSS
+ */
+#admin-float {
+	background-color: #FAE9D2;
+	border: 8px solid #8B4325;
+	padding: 8px;
+	position: absolute;
+	right: 0;
+	top: 195px;
+	width: 164px;
+}
+
+table#blocks, table.sticky-table, table.system-status-report
+{
+	width: 70%;
+	margin: 0 auto;
+}
+
+table#content-field-overview, table#content-display-overview
+{
+	width: 100%;
+	margin: 0 auto;
+}
+
+table#blocks td, table.sticky-table td { padding: 5px; }
+
+#blocks tr.region-message { color: #d09a74; }
+
+thead th { border-bottom: 3px solid #8f482a; }
+
+tr.even, tr.odd {
+	border-bottom: 1px solid #8f482a;
+	padding: 10px 60px;
+}
+
+tr.odd { background-color: #f4d0b4; }
+tr.even { background-color: #e6bfa1; }
+td.active { background-color: #ffa029; }
+
+ul.primary, ul.secondary { border-color: #8B4325; }
+
+ul.primary li a
+{
+	background-color: #d09a74;
+	border-color: #8B4325;
+	color: #fae9d2;
+}
+
+ul.primary li a:hover
+{
+	border-color: #8B4325;
+	color: #4b2211;
+}
+
+ul.primary li.active a { color: #4b2211; }
+
+ul.secondary a.active { border-bottom: 4px solid #8B4325; }
+ul.secondary a:hover, ul.secondary a:hover.active
+{
+	border-bottom: 4px solid #8B4325;
+	color: #8B4325;
+}
+
+/**
+ * Form elements
+ */
+#signin-landing
+{
+	position: absolute;
+	left: 265px;
+	bottom: 7px;
+	z-index: 50;
+}
+
+#signin
+{
+	position: absolute;
+	top: 0;
+	left: 265px;
+	z-index: 50;
+}
+
+#signin .sign-in-form .messages, #signin .sign-in-form .webform-confirmation, 
+#signin-landing .sign-in-form .messages, #signin-landing .sign-in-form .webform-confirmation, 
+#node-1 .sign-in-form .messages, #node-1 #signin-landing .sign-in-form .webform-confirmation
+{
+	position: absolute;
+	left: 0;
+	width: 656px;
+}
+
+#signin .sign-in-form .messages, #signin .sign-in-form .webform-confirmation, 
+#node-1 .sign-in-form .messages, #node-1 #signin-landing .sign-in-form .webform-confirmation { top: 40px; }
+
+#signin-landing .sign-in-form .messages, #signin-landing .sign-in-form .webform-confirmation { top: -65px; }
+
+.sign-in-form label
+{
+	color: #8b4325;
+	font-size: 13px;
+	text-transform: uppercase;
+	display: inline;
+	font-family: 'Trebuchet MS', Trebuchet, Verdana, sans-serif;
+}
+
+.sign-in-form .form-required { display: none; }
+
+.sign-in-form .form-submit, .sign-in-form .form-text
+{
+	background-color: #d89e67;
+	font-size: 13px;
+	padding: 2px 5px;
+	border: 1px solid #8b4325;
+	font-family: 'Trebuchet MS', Trebuchet, Verdana, sans-serif;
+}
+
+.sign-in-form .form-submit
+{
+	background-color: #ff940e;
+	background-image: url(images/button-grad.png);
+	background-repeat: repeat-x;
+	padding: 0 5px;
+	color: #8b4325;
+	text-transform: uppercase;
+	font-weight: bold;
+	width: 65px;
+	font-size: 14px;
+}
+
+.sign-in-form .form-text { width: 114px; }
+.sign-in-form .form-item { margin: 0; }
+
+.sign-in-form .form-body
+{
+	font-size: 13px;
+	text-align: right;
+	width: 130px;
+	color: #8b4325;
+	text-transform: uppercase;
+	line-height: 130%;
+	font-weight: bold;
+	font-family: 'Trebuchet MS', Trebuchet, Verdana, sans-serif;
+}
+
+.sign-in-form .form-webform { padding: 5px 0; }
+
+.sign-in-form .form-body, .sign-in-form .form-webform, .sign-in-form #webform-component-name, .sign-in-form #webform-component-email 
+{
+	float: left;
+	padding-right: 20px;
+}
+
+#signin-landing .sign-in-form .form-body, #signin-landing .sign-in-form label { color: #ffbc61; }
+
+/**
+ * Messages
+ */
+.messages, .webform-confirmation
+{
+	background-color: #fff;
+	border: 1px solid #d09a74;
+	/*margin: 10px 25px;*/
+	margin: 0;
+}
+
+div.status, div.error
+{
+	color: #ff940e;
+	border-color: #d09a74;
+	padding: 10px;
+}
+
+div.error, tr.error
+{
+	color: #a30000;
+	border-color: #d77;
+	background-color: #fcc;
+}
+
+.form-item input.error { background-color: #fcc; }
+
+.form-item input.error, .form-item textarea.error
+{
+	border: 1px solid #c52020;
+	color: #363636;
+}
+
+/**
+ * Collapsible fieldsets
+ */
+
+fieldset
+{
+	margin: 10px 0;
+	padding: 10px;
+	border: 1px solid #8B4325;
+	background: #fae9d2 url(images/gradient-inner.png) repeat-x 0 0;
+}
+
+/* Targets IE 7. Fixes background image in field sets. */
+*:first-child+html fieldset
+{
+	padding: 0 10px 10px;
+}
+
+*:first-child+html fieldset > .description, *:first-child+html fieldset .fieldset-wrapper .description { padding-top: 10px; }
+
+fieldset legend
+{
+	/* Fix disappearing legend in FFox */
+	display: block;
+}
+
+*:first-child+html fieldset legend, *:first-child+html fieldset.collapsed legend { display: inline; }
+
+html.js fieldset.collapsed
+{
+	background: transparent;
+	padding-top: 0;
+	padding-bottom: 5px;
+}
+
+html.js fieldset.collapsible legend a { padding-left: 20px; }
+
+.fieldset-wrapper table { width: 100%; }
+
+.krumo-root { position: relative; z-index: 100; }
+
+/**
+ * Wine List
+ */
+.view-wine-list .view-content h3 {
+	font-size: 120%;
+	margin-top: 10px;
+}
+.view-wine-list .view-header #wine-menu li {
+	display: inline;
+	padding: 0 10px;
+	white-space: nowrap;
+}
+.view-wine-list .view-header #wine-menu, 
+.view-wine-list .view-content { text-align: center; }
+.view-wine-list .view-content .field-content { padding-right: 10px; }
+.view-wine-list .view-content .views-field-field-wine-price-value .field-content { padding-right: 0; }
+
+/**
+ * Wine By The Glass
+ */
+.wine-list { text-align: center; }
+
+.wine-list h3 {
+	font-size: 120%;
+	margin-top: 10px;
+}
+
+.wine-list .wine-row span { padding-right: 10px; }
+.wine-list .wine-row span.price { padding-right: 0; }
+
+/**
+ * Wine Tasting
+ */
+#wine-tasting-times-block { margin: 10px 0; }
+
+#wine-tasting-times {
+	float: left;
+	display: inline;
+	width: 335px;
+}
+
+.wine-tasting-times-image {
+	float: right;
+	display: inline;
+	width: 242px;
+	margin-right: 10px;
+}
+
+.wine-tasting-list { text-align: center; }
+.wine-tasting-list dl span { padding-right: 10px; }
+.wine-tasting-list dl span.last { padding-right: 0; }
+
+.wine-tasting-list dl dt, .menu dl dt
+{
+	margin-top: 5px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+/**
+ * Menus
+ */
+.menu { text-align: center; }
+.menu dl span.price { padding-left: 10px; }
+.menu dl { margin-bottom: 20px; }
+
+/**
+ * Wine of the Month
+ */
+.view-wine-of-the-month .view-content
+{
+	text-align: center;
+	margin-top: 20px;
+}
+.view-wine-of-the-month .views-field-body { text-align: left; }
+.view-wine-of-the-month .views-field-body p { margin-top: 5px; }
+
+.view-wine-of-the-month .views-field-field-wine-image-fid {
+	float: right;
+	display: inline;
+	width: 242px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	text-align: right;
+}
+
+.view-wine-of-the-month .views-field-field-wine-vintage-value, 
+.view-wine-of-the-month .views-field-title, 
+.view-wine-of-the-month .views-field-field-wine-price-value, 
+.view-wine-of-the-month .views-field-field-wine-location-value {
+	font-weight: bold;
+}
